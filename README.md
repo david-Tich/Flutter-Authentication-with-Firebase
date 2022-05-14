@@ -3,7 +3,10 @@
 <img src="assets/flutter_02.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-A new Flutter project.
+     <img src="assets/flutter_01.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 
 ## Getting Started
 
