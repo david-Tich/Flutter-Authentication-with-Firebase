@@ -10,6 +10,8 @@ class SigninScreen extends StatefulWidget {
 }
 
 class _SigninScreenState extends State<SigninScreen> {
+  TextEditingController _passwordTextController = TextEditingController();
+  TextEditingController _emailTextController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,6 +31,16 @@ class _SigninScreenState extends State<SigninScreen> {
               child: Column(
                 children: <Widget>[
                   logoWidget("assets/images/logo.png"),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  reusableTextField("Enter UserName", Icons.person_outline,
+                      false, _emailTextController),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  reusableTextField("Enter password", Icons.lock_outline, true,
+                      _passwordTextController),
                 ],
               )),
         ),
