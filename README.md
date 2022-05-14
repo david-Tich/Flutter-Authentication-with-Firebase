@@ -1,4 +1,4 @@
-# auth
+# Flutter Authentication with Firebase
 
 A new Flutter project.
 
