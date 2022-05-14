@@ -1,5 +1,8 @@
 # Flutter Authentication with Firebase
 
+<img src="assets/flutter_02.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 A new Flutter project.
 
 ## Getting Started
